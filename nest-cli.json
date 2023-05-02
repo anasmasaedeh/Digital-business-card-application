@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "mail": {
+      "type": "library",
+      "root": "libs/mail",
+      "entryFile": "index",
+      "sourceRoot": "libs/mail/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/mail/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}

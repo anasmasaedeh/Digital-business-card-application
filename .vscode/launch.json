@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug NestJS App",
+            "program": "${workspaceFolder}\\libs\\schemas\\src\\index.ts",
+            "args": [
+                "start",
+                "--watch"
+            ],
+            "runtimeArgs": [
+                "--inspect-brk"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}

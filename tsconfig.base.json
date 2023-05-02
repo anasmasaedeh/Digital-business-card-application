@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@my-proj/database": ["libs/database/src/index.ts"],
+      "@my-proj/dtos": ["libs/dtos/src/index.ts"],
+      "@my-proj/interface": ["libs/interface/src/index.ts"],
+      "@my-proj/mail": ["libs/mail/src/index.ts"],
+      "@my-proj/mailer": ["libs/mailer/src/index.ts"],
+      "@my-proj/mails": ["libs/mails/src/index.ts"],
+      "@my-proj/microservices": ["libs/microservices/src/index.ts"],
+      "@my-proj/models": ["libs/models/src/index.ts"],
+      "@my-proj/my-guards-library": ["libs/my-guards-library/src/index.ts"],
+      "@my-proj/schemas": ["libs/schemas/src/index.ts"],
+      "@my-proj/shared-data": ["libs/shared-data/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
